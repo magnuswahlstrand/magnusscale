@@ -1,0 +1,22 @@
+{
+  "name": "@planetscale/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "drizzle-kit": "^0.17.0",
+    "sst": "^2.1.15",
+    "vitest": "^0.29.2"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.6.0",
+    "drizzle-orm": "^0.21.1",
+    "mysql2": "^2.3.3",
+    "planetscale-node": "^0.3.0",
+    "sst": "^2.1.15"
+  }
+}
