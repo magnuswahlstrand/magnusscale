@@ -11,11 +11,12 @@ export function MagnusScaleStack({stack}: StackContext) {
     });
 
 
-    // Create a HTTP API
+    // Create an HTTP API
     const api = new Api(stack, "Api", {
         routes: {
             "POST /": "packages/functions/src/lambda.handler",
         },
+
     });
     api.bind(
         [
